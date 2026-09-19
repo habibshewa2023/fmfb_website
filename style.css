@@ -77,3 +77,52 @@ header{
 .grid-home img{
 	width: 100%;
 }
+
+
+
+
+@media (max-width: 768px) {
+	
+    .logo img {
+        height: 32px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+	
+	.menu-toggle i{
+		color: rgb(26, 123, 186);
+	}
+
+    .nav-links {
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background: rgb(26, 123, 186);
+        flex-direction: column;
+        align-items: center;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease;
+    }
+	
+	.nav-links a{
+		color: white;
+	}
+	.nav-links a:hover{
+		color: white;
+		text-shadow: 2px 2px 5px white;
+	}
+
+
+    .nav-links.active {
+        max-height: 350px;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+
+}
