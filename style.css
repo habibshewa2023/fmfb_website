@@ -69,3 +69,11 @@ header{
     color: #fff;
     cursor: pointer;
 }
+
+.grid-home{
+	display: grid;
+}
+
+.grid-home img{
+	width: 100%;
+}
