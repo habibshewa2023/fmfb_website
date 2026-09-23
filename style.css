@@ -105,6 +105,78 @@ header{
 	margin-top: 10px;
 }
 
+
+.grid-account {
+    text-align: center;
+    padding: 30px;
+	height: 100vh;
+	scroll-margin-top: 73px;
+}
+.account-title {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.account-card {
+    display: inline-block;
+    width: 280px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.account-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: rgb(1, 124, 194);
+}
+
+
+.account-card:hover h2,
+.account-card:hover p {
+    color: white;
+}
+.account-card img{
+	width: 100%;
+}
+
+.account-card h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.account-card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.business-button {
+  background-color: rgb(1, 124, 194);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin: 16px auto;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.business-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
 	
     .logo img {
