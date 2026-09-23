@@ -79,7 +79,31 @@ header{
 }
 
 
+.grid-about{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	scroll-margin-top: 73px;
+}
+.about-item {
+	width: 50%;
+	padding: 20px;
+	border-radius: 8px;
+	
+}
+.about-item img{
+	width: 100%;
+	border-radius: 10px;
+}
 
+.about-item h1{
+	margin-bottom: 10px;
+}
+.about-item p{
+	line-height: 30px;
+	text-align: justify;
+	margin-top: 10px;
+}
 
 @media (max-width: 768px) {
 	
