@@ -169,7 +169,54 @@ header{
 
 
 
+.grid-gallery{
+	text-align: center;
+    padding: 30px;
+	scroll-margin-top: 73px;
+}
 
+.gallery-title {
+    font-size: 30px;
+    color: #004080;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.slideshow {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+video{
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+.slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    animation: slide 12s infinite;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    100% { transform: translateX(0); }
+}
 
 
 
